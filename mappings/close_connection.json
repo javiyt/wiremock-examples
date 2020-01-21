@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/close"
+    },
+    "response": {
+        "status": 200,
+        "fault": "RANDOM_DATA_THEN_CLOSE",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

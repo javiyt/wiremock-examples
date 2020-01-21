@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/countries"
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "countries_response.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

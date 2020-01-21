@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/countries-delayed"
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 2000,
+        "bodyFileName": "countries_response.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

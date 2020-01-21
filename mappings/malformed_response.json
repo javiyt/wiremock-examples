@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/malformed"
+    },
+    "response": {
+        "status": 200,
+        "fault": "MALFORMED_RESPONSE_CHUNK",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
