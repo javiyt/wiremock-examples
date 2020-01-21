@@ -26,3 +26,10 @@ malformed:
 
 close:
 	curl -v http://localhost:8080/close
+
+record:
+	curl -v -XPOST -d '{"targetBaseUrl": "https://api.tfl.gov.uk"}' http://localhost:8080/__admin/recordings/start
+	curl -v http://localhost:8080/Line/Mode/tube
+	curl -v http://localhost:8080/Line/bakerloo/Status?detail=false
+	curl -v http://localhost:8080/Line/bakerloo/Route/Sequence/inbound
+	curl -v -XPOST http://localhost:8080/__admin/recordings/stop
